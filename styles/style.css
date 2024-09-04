@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: rg;
+  font-weight: 400;
+}
+:root{
+  --bg:#f7f7f7;
+  --mc:#0a0a0a;
+  --tc:#0a0a0a;
+  --sbc:#f7f7f7;
+}
+@font-face{
+  font-family:rg;
+  src:url(EuclidCircularAMedium.ttf)
+}
+@font-face{
+  font-family:bd;
+  src:url(EuclidCircularABold.ttf)
+}
+.form{
+  display: flex;
+  align-items: center;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  flex-direction: column;
+  padding: 100px 5%;
+  
+}
+.input_field input{
+  width: 300px;
+  height: 45px;
+  border-radius:8px;
+  border: none;
+  background: var(--sbc);
+  padding: 0 30px 0 40px;
+  outline: none;
+}
+.form .log{
+  width: 300px;
+  height:40px;
+  background: var(--mc);
+  border:none;
+  border-radius: 8px;
+  color: #fff;
+}
+.forgot a{
+  font-size: 1em;
+  padding: .5em .5em;
+  color: var(--mc);
+  text-decoration: none;
+}
+.account{
+  font-size: 1em;
+  padding: .5em .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header{
+  padding: .3em .5em;
+}
+.header h2{
+  font-family: bd;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+.header p{
+  margin-top: .5em;
+}
+.account a{
+  color: var(--mc);
+}
+.input_field{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input_field i{
+  position: absolute;
+  top:3.5em;
+  right:  1em;
+  opacity: 0.7;
+} label{
+  padding: .7em .5em;
+  text-transform: capitalize;
+}
+.use{
+  padding: 100px 4%;
+  display: flex;
+  justify-content: color;
+  text-align: center;
+  flex-direction: column;
+}
+.use h1{
+  padding: .5em .5em;
+}
+.use .log{
+  width: 200px;
+  height:40px;
+  background: var(--mc);
+  border:none;
+  border-radius: 30px;
+  color: #fff;
+}
+.use p{
+  padding: .3em .5em;
+  line-height: 1.5em;
+}
